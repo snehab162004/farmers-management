@@ -1,0 +1,80 @@
+
+.section-container{
+    color: white;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+
+.section-heading{
+    font-size: 3.1rem;
+    font-style: italic;
+}
+/* .about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define three columns with equal width */
+     */
+
+
+.section-description {
+    color: white;
+    font-family: 'Poppins';
+    letter-spacing: .2rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define three columns with equal width */
+    margin-top: 4rem;
+}
+
+.section-card1 {
+    margin: 3rem 9rem;
+    width: 100%;
+}
+
+.section-card2 {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    width: 100%;
+}
+
+.imag2-description {
+    margin-top: 0px;
+}
+
+.section-image3 {
+    margin-top: 2rem;
+    margin-left: 6rem;
+    width: 45%;
+}
+
+.image3-description {
+    margin-left: 11rem;
+    margin-top: 1rem;
+}
+.section-image1 {
+    width: 60%;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: normal;
+    font-family: 'Poppins';
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+.section-image2 {
+    width: 50%;
+}
+
+
+.hr-style {
+    margin-top: 7rem;
+    width: 95%;
+    margin-left: 2rem;
+}

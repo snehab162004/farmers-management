@@ -1,0 +1,72 @@
+.contact-container {
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.contact-container-heading{
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+form {
+    width: 60%;
+    height: 80%;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 2rem;
+    margin-left: 22rem;
+    margin-top: 5rem;
+    line-height: 3rem;
+    /* background-color: rgb(214, 214, 214); */
+    color: #4b3832;
+}
+label {
+    font-size: 1.7rem;
+    font-family: 'Poppins';
+    margin-right: 35rem;
+    /* color: rgb(223, 223, 223); */
+    color: rgb(214, 214, 214);
+    font-weight: 600;
+    /* padding-top: 4rem; */
+  /* margin-top: 6rem; */
+}
+
+
+
+input, textarea {
+    padding: 1rem 4rem;
+    background-color: transparent;
+    width: 70%;
+    border-radius: 1rem;
+    display: flex;
+    margin-left: 16rem;
+    outline: none;
+    border: 2px solid rgb(214, 214, 214);
+    font-size: 1.2rem;
+    
+}
+
+input:focus, textarea:focus{
+    transition: all .3s ease-in-out;
+    color: #d6d6d6;
+    
+}
+
+input:hover, textarea:hover  {
+    box-shadow: 0 0 7px rgb(214, 214, 214); /* Add a box shadow on hover */
+  }
+  
+button {
+    border: 3px solid rgb(214, 214, 214);
+    color: rgb(214, 214, 214);
+    margin-top: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    background-color: #d6d6d6;
+    color: #4b3832;
+
+}
+

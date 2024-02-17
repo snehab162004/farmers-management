@@ -1,0 +1,43 @@
+.about-container {
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.about-container-heading{
+    font-size: 3.5rem;
+    font-style: italic;
+}
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define three columns with equal width */
+    
+}
+
+span {
+    font-size: 2.2rem;
+    color: #4b3832;
+    font-style: italic;
+    line-height: 4rem;
+    font-weight: 700;
+}
+.about-para {
+    background-color: #d6d6d6;
+    margin-top: 4rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* color: rgb(214, 214, 214); */
+    color: #4b3832;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.hr-style {
+    margin-top: 8rem;
+    width: 288%;
+    margin-left: 2rem;
+}
